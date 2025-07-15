@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "instanceId": "guillaume-security-agent-v40"
+  },
+  "name": "Security Agent v4.0 - Cybersécurité & Monitoring",
+  "tags": ["guillaume", "security", "agent", "v4.0", "cybersecurity", "monitoring"],
+  "nodes": [
+    {
+      "parameters": {
+        "path": "/security-agent-v40",
+        "options": {
+          "noResponseBody": false
+        },
+        "responseMode": "responseNode"
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "id": "webhook-security-v40",
+      "name": "Webhook Security v4.0"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "triggerCount": 1
+}

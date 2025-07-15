@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "instanceId": "guillaume-productivity-agent-v40"
+  },
+  "name": "Productivity Agent v4.0 - Guillaume TAI",
+  "tags": ["guillaume", "productivity", "agent", "v4.0", "calendar", "tasks"],
+  "nodes": [
+    {
+      "parameters": {
+        "path": "/productivity-agent-v40",
+        "options": {
+          "noResponseBody": false
+        },
+        "responseMode": "responseNode"
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "id": "webhook-productivity-v40",
+      "name": "Webhook Productivity v4.0"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "triggerCount": 1
+}

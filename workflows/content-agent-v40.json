@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "instanceId": "guillaume-content-agent-v40"
+  },
+  "name": "Content Agent v4.0 - Documentation & Création",
+  "tags": ["guillaume", "content", "agent", "v4.0", "documentation", "creation"],
+  "nodes": [
+    {
+      "parameters": {
+        "path": "/content-agent-v40",
+        "options": {
+          "noResponseBody": false
+        },
+        "responseMode": "responseNode"
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "id": "webhook-content-v40",
+      "name": "Webhook Content v4.0"
+    }
+  ],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "triggerCount": 1
+}
